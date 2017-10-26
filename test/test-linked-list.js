@@ -1,6 +1,5 @@
 const should = require('should');
-
-const LinkedList = require('./../linked-list');
+const LinkedList = require('./../src/linked-list');
 
 describe('LinkedList', function() {
 
