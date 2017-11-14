@@ -1,3 +1,16 @@
+/* 
+The Big O's in Linked List:
+- Adding / removing head or tail: O(1) (constant time)
+- Searching through Linked List: O(n) (linear time - increase proportionally of the length of the list)
+
+Use cases:
+- Poker game? circular linked list 
+
+Memory Benefits: 
+- Data doesn't have to be stored together (for lower level operation when dealing with the memory directly)
+- So it uses memory efficiently
+*/
+
 function LinkedList() {
     this.head = null;
     this.tail = null;
@@ -104,16 +117,3 @@ function Node(value, nextNode, prevNode) {
 };
 
 module.exports = LinkedList;
-
-/* 
-The Big O's in Linked List:
-- Adding / removing head or tail: O(1) (constant time)
-- Searching through Linked List: O(n) (linear time - increase proportionally of the length of the list)
-
-Use cases:
-- Poker game? circular linked list 
-
-Memory Benefits: 
-- Data doesn't have to be stored together (for lower level operation when dealing with the memory directly)
-- So it uses memory efficiently
-*/
