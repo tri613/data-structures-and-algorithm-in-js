@@ -63,11 +63,7 @@ LinkedList.prototype.printNodes = function() {
     let nodes = [];
     let currentNode = this.head;
     
-    if (currentNode) {
-        nodes.push(currentNode.value);
-    }
-
-    while(currentNode !== null && currentNode.nextNode) {
+    while(currentNode) {
         currentNode = currentNode.nextNode;
         nodes.push(currentNode.value);
     }
