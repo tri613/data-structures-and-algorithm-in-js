@@ -1,3 +1,7 @@
+// 兩個"已從小到大"排序好的array進行比對並合成一個，就是merge sort
+// 但由於一開始只有一個array，所以要進行拆分
+// 直到拆分到僅剩一個元素，再慢慢合併回來
+
 function mergeSort(array) {
   if (array.length <= 1) {
     return array;

@@ -1,3 +1,5 @@
+// 兩兩相比，把大的放到右邊
+
 function bubbleSort(array) {
   let count = 0;
   for (let j = array.length; j > 1; j--) {
