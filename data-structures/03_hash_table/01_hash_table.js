@@ -5,7 +5,7 @@ Hash Table:
     - Lookup: O(1)
     - Insertion: O(1)
 - Cons
-  - Data doens't store references to other pieces of data
+  - Data doesn't store references to other pieces of data
 */
 
 class HashTable {
@@ -74,16 +74,16 @@ class HashNode {
 
 var myht = new HashTable(30);
 
-myht.insert("Trina", "tri613@gmail.com")
-myht.insert("Chu", "wooshot@gmail.com")
-myht.insert("Cuh", "sherry21_cat@gmail.com")
-myht.insert("Sherry", "sherry21_cat@gmail.com")
-myht.insert("Cuh", "peter@gmail.com")
-myht.insert("Chu", "chu_v2@gmail.com")
-myht.insert("Trina", "trina_v2@gmail.com")
+myht.insert("Trina", "tri613@gmail.com");
+myht.insert("Chu", "wooshot@gmail.com");
+myht.insert("Cuh", "sherry21_cat@gmail.com");
+myht.insert("Sherry", "sherry21_cat@gmail.com");
+myht.insert("Cuh", "peter@gmail.com");
+myht.insert("Chu", "chu_v2@gmail.com");
+myht.insert("Trina", "trina_v2@gmail.com");
 
 myht.retrieveAll()
-  .forEach(row => console.log(`[${row.index}] ${row.key} : ${row.value}`))
+  .forEach(row => console.log(`[${row.index}] ${row.key} : ${row.value}`));
 
-console.log(myht.get("Trina"))
-console.log(myht.get("Z__Z"))
+console.log(myht.get("Trina"));
+console.log(myht.get("Z__Z"));
